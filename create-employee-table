@@ -1,0 +1,7 @@
+CREATE TABLE Employee (
+        id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+        name VARCHAR(255),
+        salary DOUBLE
+);
+
+INSERT INTO Employee (name, salary) VALUES ('John Smith', 5000);
